@@ -38,7 +38,8 @@ class RSUnifiedCodeGenerator: RSCodeGenerator {
             codeGenerator = RSUPCEGenerator()
         case AVMetadataObjectTypeCode93Code:
             codeGenerator = RSCode93Generator()
-            
+        case AVMetadataObjectTypeDataMatrixCode:
+            codeGenerator = RSDataMatrix()
         // iOS 8 included, but my implementation's performance is better :)
         case AVMetadataObjectTypeCode128Code:
             if self.useBuiltInCode128Generator {
@@ -53,6 +54,7 @@ class RSUnifiedCodeGenerator: RSCodeGenerator {
             codeGenerator = RSISSN13Generator()
         case RSBarcodesTypeExtendedCode39Code:
             codeGenerator = RSExtendedCode39Generator()
+
             
         default:
             return nil
