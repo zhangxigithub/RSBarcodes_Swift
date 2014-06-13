@@ -93,5 +93,18 @@ class RSBarcodesSampleTests: XCTestCase {
         
 
     }
+    //add by zhangxi.me
+    func testRSDataMatrix() {
+        self.measureBlock() {
+            let codeImage = RSDataMatrix().generateCode("1234567890", machineReadableCodeObjectType: AVMetadataObjectTypeDataMatrixCode)
+             XCTAssert(codeImage != nil, "Pass DataMatrix")
+
+            println(codeImage)
+            
+
+        }
+        
+        
+    }
     
 }

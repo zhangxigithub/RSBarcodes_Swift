@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		33FBFDD3194996A400A13C1A /* RSDataMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33FBFDD2194996A400A13C1A /* RSDataMatrix.swift */; };
+		33FBFDD4194A892100A13C1A /* RSDataMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33FBFDD2194996A400A13C1A /* RSDataMatrix.swift */; };
 		D0106F721946CBAF00463F91 /* RSCode39Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0106F711946CBAF00463F91 /* RSCode39Generator.swift */; };
 		D015DEF41946F053001A7243 /* RSCode39Mod43Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D015DEF31946F053001A7243 /* RSCode39Mod43Generator.swift */; };
 		D043475A19498535003E0954 /* RSCodeReaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D043475919498535003E0954 /* RSCodeReaderViewController.swift */; };
@@ -317,6 +318,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D043475B19498E35003E0954 /* RSCodeReaderViewController.swift in Sources */,
+				33FBFDD4194A892100A13C1A /* RSDataMatrix.swift in Sources */,
 				D043475C19498E35003E0954 /* StringExtension.swift in Sources */,
 				D043475D19498E35003E0954 /* RSCodeGenerator.swift in Sources */,
 				D043475E19498E35003E0954 /* RSUnifiedCodeGenerator.swift in Sources */,
